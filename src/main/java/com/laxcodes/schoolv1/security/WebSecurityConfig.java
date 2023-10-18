@@ -1,9 +1,8 @@
 package com.laxcodes.schoolv1.security;
 
-import com.swiftcodes.authsample.security.utils.JwtAuthFilter;
-import com.swiftcodes.authsample.security.utils.SecurityConstants;
+import com.laxcodes.schoolv1.security.utils.JwtAuthFilter;
+import com.laxcodes.schoolv1.security.utils.SecurityConstants;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

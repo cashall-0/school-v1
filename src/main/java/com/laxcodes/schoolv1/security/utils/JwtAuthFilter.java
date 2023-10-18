@@ -1,6 +1,6 @@
 package com.laxcodes.schoolv1.security.utils;
 
-import com.swiftcodes.authsample.security.service.CustomUserDetailsService;
+import com.laxcodes.schoolv1.security.service.CustomUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

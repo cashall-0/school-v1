@@ -1,7 +1,7 @@
 package com.laxcodes.schoolv1.security.service;
 
-import com.swiftcodes.authsample.security.models.AuthRequest;
-import com.swiftcodes.authsample.security.utils.JwtUtilMethods;
+import com.laxcodes.schoolv1.security.models.AuthRequest;
+import com.laxcodes.schoolv1.security.utils.JwtUtilMethods;
 import lombok.AllArgsConstructor;
 
 import org.springframework.security.authentication.AuthenticationManager;
