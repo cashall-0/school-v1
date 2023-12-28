@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 public class BaseData {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private long id;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)

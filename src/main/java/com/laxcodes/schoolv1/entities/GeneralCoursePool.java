@@ -11,6 +11,7 @@ import java.util.List;
 @Data
 @Entity
 public class GeneralCoursePool extends BaseData {
-    @OneToMany //TODO check if this is correct one to many
+    //TODO check if this is correct one to many
+    @OneToMany
     private List<Course> courses;
 }

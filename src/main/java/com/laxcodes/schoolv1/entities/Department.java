@@ -14,6 +14,8 @@ import lombok.EqualsAndHashCode;
 public class Department extends BaseData{
     private String departmentName;
     private boolean accredited;
+    private int requiredCredit;
+    private int maxCredit;
     @Enumerated(EnumType.STRING)
     private Faculties faculty;
     @OneToOne
